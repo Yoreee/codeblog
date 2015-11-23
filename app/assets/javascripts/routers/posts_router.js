@@ -5,11 +5,16 @@ App.Routers.Posts = Backbone.Router.extend({
 	},
 
 	routes: {
-		"": "index"
+		"": "index",
+		"show" : "show"
 	},
 
 	index: function() {
+		console.log('hello index hit')
 		this.view = new App.Views.PostsIndex({collection: this.collection})
+	},
+
+	show: function() {
+		console.log("hii wtf")
 	}
-	
 })
