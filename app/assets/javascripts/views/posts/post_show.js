@@ -23,10 +23,10 @@ App.Views.PostShow = Backbone.View.extend({
 		this.$('.update-post').show();
 		this.$('.cancel-post').show();
 
-		var name = this.$('.post-name').html();
+		var name = this.$('.post-title').html();
 		var content = this.$('.post-content').html();
 
-		this.$('.post-name').html('<input type="text" class="title-update" value="' + name +'">');
+		this.$('.post-title').html('<input type="text" class="title-update" value="' + name +'">');
 		this.$('.post-content').html('<input type="text" class="content-update" value="' + content +'">');
 	},
 
