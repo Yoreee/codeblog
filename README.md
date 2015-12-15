@@ -1,4 +1,4 @@
-## README
+## CODEBLOG README
 
 I made this app because I wanted a way to keep track of issues I have with my projects. I also wanted to use it as an opportunity to try out Backbone with Rails as an API. It was fun to make. I plan on expanding on this and on making bigger projects with these technologies. 
 
