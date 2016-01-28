@@ -21,6 +21,11 @@ body {
  	background-color: rgb(245, 255, 250);
 }
 
+.blurb {
+	color: rgb(120, 160, 200);
+	font-weight: bold;
+}
+
 .outer {
 	width: 100%;
 	margin: 0 auto;
@@ -29,7 +34,8 @@ body {
 }
 
 .title {
-	font-size: 50px;
+	font-size: 80px;
+	font-weight: 900;
 	color: rgb(250, 150, 150);
 }
 
@@ -57,13 +63,15 @@ body {
 .post-title {
 	padding: 0 0 0 20px;
 	text-decoration: underline;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 900;
 }
 
 .post-content {
-	text-indent: 50px;
 	padding: 0 30px 0 40px;
 	text-align: justify;
 	overflow: auto;
+	font-family: 'Arvo', serif;
 }
 
 .new-post {
